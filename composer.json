@@ -1,0 +1,23 @@
+{
+    "name": "angel/packer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Charles Konsor",
+            "email": "charles@angelvisiontech.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Angel\\Packer\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
