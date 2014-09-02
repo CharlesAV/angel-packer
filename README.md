@@ -219,5 +219,5 @@ array(
 );
 ```
 
-___volume_pad___
+**volume_pad**
 Since we're not actually bin packing items (rearranging them in a 3d space to see if they'll fit together), we found that adding a little 'padding' to the combined volume we're checking against when filling a box helps to offset some of the erronious packing.  This configuration value is how much we multiply the combined volume by when adding more than 1 item to a box.  By default, it's 1.2 (so, we're basically adding 20% padding).  A value of 1 would mean no padding.
